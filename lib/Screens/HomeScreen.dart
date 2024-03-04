@@ -2,9 +2,9 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:shopping_list/add_item.dart';
-import 'package:shopping_list/item.dart';
-import 'package:shopping_list/item_view.dart';
+import 'package:shopping_list/Screens/add_item.dart';
+import 'package:shopping_list/model_view/item.dart';
+import 'package:shopping_list/model_view/item_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatefulWidget {
