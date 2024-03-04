@@ -31,7 +31,8 @@ class ViewItem extends StatelessWidget {
             Text(
               name,
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 22,
+                color: Colors.black87,
                 fontWeight: FontWeight.bold,
               ),
             ),
